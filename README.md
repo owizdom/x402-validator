@@ -2,7 +2,7 @@
 
 A complete implementation of a decentralized x402 validator that verifies and settles HTTP 402 payment transactions on Ethereum.
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Architecture](#architecture)
@@ -13,6 +13,7 @@ A complete implementation of a decentralized x402 validator that verifies and se
 - [Testing](#testing)
 - [API Endpoints](#api-endpoints)
 - [Project Structure](#project-structure)
+- [ScreenShots](#screenshots)
 - [Development](#development)
 - [Troubleshooting](#troubleshooting)
 
@@ -349,6 +350,13 @@ valid/
 ├── README.md          # This file
 └── .gitignore         # Git ignore rules
 ```
+
+##ScreenShot
+
+<img width="1437" height="812" alt="Screenshot 2025-12-14 at 07 26 29" src="https://github.com/user-attachments/assets/aa0524ad-ca25-45f7-9824-c6dcca6efa09" />
+
+<img width="399" height="732" alt="Screenshot 2025-12-14 at 07 26 50" src="https://github.com/user-attachments/assets/f111744b-75d1-46a9-b15e-f95284b1c905" />
+
 
 ## Development
 
