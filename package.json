@@ -1,0 +1,26 @@
+{
+  "name": "x402-validator",
+  "version": "1.0.0",
+  "description": "Decentralized x402 validator on Ethereum",
+  "type": "module",
+  "scripts": {
+    "test": "ts-node test-local.ts",
+    "test:local": "ts-node test-local.ts"
+  },
+  "keywords": [
+    "x402",
+    "ethereum",
+    "validator",
+    "payment",
+    "decentralized"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.0.2",
+    "axios": "^1.13.2",
+    "ethers": "^6.16.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

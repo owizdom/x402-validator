@@ -1,0 +1,138 @@
+.main-panel {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 32px;
+  backdrop-filter: blur(10px);
+}
+
+.panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+.panel-header h2 {
+  font-family: 'Orbitron', monospace;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--text-primary);
+}
+
+.status-indicator {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Orbitron', monospace;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: var(--text-secondary);
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.status-dot.online {
+  background: var(--accent);
+  box-shadow: 0 0 10px var(--glow);
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.status-dot.offline {
+  background: #ff4444;
+}
+
+.panel-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input-group label {
+  font-family: 'Orbitron', monospace;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
+.input-group input {
+  font-size: 16px;
+  width: 100%;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: var(--bg-primary);
+  padding: 16px 32px;
+  font-size: 18px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  width: 100%;
+  box-shadow: 0 0 20px var(--glow);
+}
+
+.btn-primary:hover:not(:disabled) {
+  background: var(--accent-hover);
+  box-shadow: 0 0 30px var(--glow);
+}
+
+.btn-primary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.result {
+  padding: 16px;
+  border-radius: 4px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+}
+
+.result.success {
+  background: rgba(0, 255, 136, 0.1);
+  border: 1px solid var(--accent);
+  color: var(--accent);
+}
+
+.result.error {
+  background: rgba(255, 68, 68, 0.1);
+  border: 1px solid #ff4444;
+  color: #ff4444;
+}
+
+.result strong {
+  display: block;
+  margin-bottom: 8px;
+  font-family: 'Orbitron', monospace;
+  letter-spacing: 2px;
+}
+
+.result-details {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.result-details p {
+  margin: 4px 0;
+  font-size: 12px;
+  opacity: 0.8;
+}
+
