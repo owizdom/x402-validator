@@ -26,7 +26,7 @@ This project implements a decentralized validator for the x402 protocol, which e
 - **Smart Contracts**: Ethereum contracts for payment verification, settlement, and validator staking
 - **Facilitator Service**: Core validator node that processes x402 payment requests
 - **Frontend UI**: Web-based terminal interface for deployment and testing
-- **Test Suite**: End-to-end testing for the complete system
+- **Test Suite**: End-to-end testing
 
 ## Components
 
