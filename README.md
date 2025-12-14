@@ -1,6 +1,6 @@
 # Decentralized x402 Validator on Ethereum
 
-A complete implementation of a decentralized x402 validator that verifies and settles HTTP 402 payment transactions on Ethereum.
+An implementation of a decentralized x402 validator that verifies and settles HTTP 402 payment transactions on Ethereum. Inspired by @jbrower95
 
 ## Table of Contents
 
